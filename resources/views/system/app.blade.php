@@ -32,7 +32,7 @@
     <main class="main-content position-relative border-radius-lg ">
         <div class="container-fluid py-4">
 
-            {{ $slot }}
+            @yield('content')
 
             {{ view('system.footer') }}
         </div>
