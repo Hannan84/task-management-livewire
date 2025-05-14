@@ -1,11 +1,11 @@
-# Laravel Livewire Task Manager (Mini Project)
+# Laravel Task Manager (Mini Project)
 
-A simple task management app built using Laravel 11 and Livewire 3.
+A simple task management app built using Laravel 11.
 
 ## Features
 
--   Task list with search and pagination
--   Create/Edit tasks using Livewire modal
+-   Task list with search
+-   Create/Edit tasks using modal
 -   Validation and live updates
 -   Clean component-based structure
 

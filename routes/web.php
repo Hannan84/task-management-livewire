@@ -2,12 +2,9 @@
 
 use App\Http\Controllers\ProjectsController;
 use App\Http\Controllers\TasksController;
-use App\Livewire\Tasks\TaskList;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', TaskList::class);
-
-// Route::get('/', [HomeController::class, 'index'])->name('home.index');
+Route::get('/', [HomeController::class, 'index'])->name('home.index');
 
 // PROJECTS ROUTES
 Route::prefix('projects')->group(function () {
