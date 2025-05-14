@@ -1,6 +1,6 @@
 # Laravel Livewire Task Manager (Mini Project)
 
-A simple task management app built using Laravel 10+ and Livewire 3.
+A simple task management app built using Laravel 11 and Livewire 3.
 
 ## Features
 
@@ -13,6 +13,7 @@ A simple task management app built using Laravel 10+ and Livewire 3.
 
 ```bash
 git clone https://github.com/Hannan84/task-management-livewire.git
+
 cd task-management-livewire
 
 composer install
